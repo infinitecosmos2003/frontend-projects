@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mondrian Project 2 </title>
+  <style>
+    /*
+    Write your CSS here
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+   body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+
+   .grid-container {
+   display: grid;
+   width: 748px;
+   height: 748px;
+   grid-template-columns: 160px auto 50px;
+   grid-template-rows: 207px 295px 21px;
+   gap: 9px;
+   background-color: #000;
+  }
+
+  .grid {
+    background-color: #F0F1EC;
+   }
+
+  .item1 {
+    background-color: #E72F24;
+   }
+
+  .item2 {
+   grid-column: span 3;
+  }
+
+  .item4 {
+   grid-column: span 2;
+  }
+
+  .item5 {
+   grid-row: span 2;
+  }
+
+  .item5 > div {
+   height: 130px;
+   background-color: #F9D01E;
+   border-bottom: 15px solid black;
+  }
+
+  .item7 {
+   background-color: #004592;
+  }
+
+  .item8 {
+   background-color: #232629;
+  }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+<div class="wrapper">
+ <div class="grid-container">
+   <div class="grid item1"></div>
+   <div class="grid item2"></div>
+   <div class="grid item3"></div>
+   <div class="grid item4"></div>
+   <div class="grid item5">
+    <div> </div>
+   </div>
+   <div class="grid item6"></div>
+   <div class="grid item7"></div>
+   <div class="grid item8"></div>
+   <div class="grid item9"></div>
+   <div class="grid item10"></div>
+   <div class="grid item11"></div>
+   <div class="grid item12"></div>
+   <div class="grid item13"></div>
+   <div class="grid item14"></div>
+   <div class="grid item15"></div>
+   <div class="grid item16"></div>
+   <div class="grid item17"></div>
+   <div class="grid item18"></div>
+   <div class="grid item19"></div>
+   <div class="grid item20"></div>
+   <div class="grid item21"></div>
+   <div class="grid item22"></div>
+   <div class="grid item23"></div>
+  </div>
+</div>
+</body>
+
+</html>

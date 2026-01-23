@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunflower Card</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" >
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff7e6, #fff);
+    }
+
+    .flex-container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Card animation + hover */
+    .sunflower-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeUp 0.8s ease-out;
+    }
+
+    .sunflower-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="flex-container">
+    <div class="card sunflower-card text-center" style="width: 18rem;">
+      <img src="./flower.jpg" class="card-img-top" alt="Sunflower">
+
+      <div class="card-body">
+        <h5 class="card-title fw-bold">🌻 Sunflower</h5>
+
+        <h6 class="card-subtitle mb-2 text-muted fw-normal">
+          Turning toward the light
+        </h6>
+
+        <p class="card-text">
+          Sunflowers symbolize warmth, optimism, and resilience.
+          They teach us to grow toward positivity even in tough conditions.
+        </p>
+
+        <a href="#" class="btn btn-warning text-white px-4">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

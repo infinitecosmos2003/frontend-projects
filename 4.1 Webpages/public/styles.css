@@ -1,0 +1,18 @@
+h1 {
+  font-family: "Georgia", serif;
+}
+
+.label {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.value {
+  font-family: "Courier New", monospace;
+  color: #444;
+}
+.heading { 
+  font-family: "Georgia", serif; 
+}
+
+

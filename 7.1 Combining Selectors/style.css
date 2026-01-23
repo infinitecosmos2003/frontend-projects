@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+/* Grouping Selectors */
+h1, h2 {
+  color: blueviolet;
+ }
+
+/* Parent-child Selectors */
+.box > p {
+ color: firebrick;
+ }
+
+/* Ancestor Descendant */
+div li {
+  color: blue;
+ } 
+/* Chaining Selectors */
+li.done {
+  color: seagreen;
+}
+
+/* Combining Combinations */
+ul > p.done {
+  font-size: 0.5rem;
+ }
