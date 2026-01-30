@@ -1,0 +1,164 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.skills, .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  border: 2px dashed #cbd5e1;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.card p {
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+
+.card a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+/* Improve mobile spacing */
+.projects, .skills {
+  margin-top: 30px;
+}
+
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.cert-card {
+  background: #ffffff;
+  padding: 16px 18px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+}
+
+.cert-card h4 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.cert-card p {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+
+
+/*.skill {
+  margin-bottom: 14px;
+}
+
+.skill span {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.bar {
+  background: #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.bar div {
+  background: #38bdf8;
+  height: 100%;
+  border-radius: 8px;
+} */
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.card1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #111827;
+}
+
+.item-description {
+  font-size: 0.95rem;
+  line-height: 1.55;
+ /* color: #4b5563;*/
+}
+
+
+
+
+
+
+/*.skills-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.skills-columns ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.skills-columns li {
+  margin-bottom: 8px;
+}
+
+/* Mobile friendly */
+@/*media (max-width: 700px) {
+  .skills-columns {
+    grid-template-columns: 1fr;
+  }*/
+}

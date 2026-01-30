@@ -1,15 +1,49 @@
-<!DOCTYPE html>
+<!DOC/XTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+   <link rel="stylesheet" href="style.css">
   <title> My Resume </title>
  
 <style>
-    body {
-      background: #f4f6f8;
+   
+   body {
+    background-color : #F5F4FA;
+    line-height: 1.5;
     }
+   
+   footer {
+    text-align: center;
+    margin-top: 80px;
+    color: #94a3b8;
+   }
+
+  .ablack {
+  color: black;
+  text-decoration: none;
+ }
+
+  .cat {
+  color: #4b5563;
+ }
+
+ .others-inline {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.others-inline a {
+  text-decoration: underline;
+  color: #1e90ff;
+}
+ footer {
+  margin-top: 18px;   /* try 20–40px instead of big space */
+} 
+
 </style>
 </head>
  
@@ -23,7 +57,7 @@
 
 
 
-<h2>Summary</h2>
+<h2> Professional Summary</h2>
 <p>
 Motivated fresher focused on <strong>Web Development</strong>, currently building real-world projects using HTML, CSS, and JavaScript.
 </p>
@@ -38,7 +72,7 @@ upskill quickly based on project or organizational requirements.
 <hr />
 
 
-<h2>Education</h2>
+<h2>🎓 Education</h2>
 <ul>
   <li>
     <strong>B.Tech in Information Technology</strong><br />
@@ -61,7 +95,7 @@ upskill quickly based on project or organizational requirements.
 
 
 
-<h2> Projects </h2>
+<!--<h2> Projects </h2>
   <ul>
   <li>
     <em> Web Development Projects </em> 
@@ -97,53 +131,197 @@ upskill quickly based on project or organizational requirements.
     </ul>
   </li>
 </ul>
+<hr/ --->
+
+
+
+
+
+
+<!-- Projects Section -->
+  <!--<section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Web Development Projects</h3>
+          <ul>
+            <li><a href="https://infinitecosmos2003.github.io/frontend-projects/">Resume Website</a><>
+            <li><a href="https://github.com/infinitecosmos2003/blog-web-app">Blog Web App (Ongoing)</>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Data Analytics Projects</h3>
+          <ul>
+            <li><a href="#">Bike Buyers Analysis in MS Excel</a></li>
+            <li><a href="#">MySQL Exploratory Data Analysis</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Machine Learning Projects</h3>
+          <ul>
+            <li><a href="#">House Price Prediction</a></li>
+            <li><a href="#">Customer Behavior & Preferences Prediction</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+ <hr/>-->
+
+<section id="projects">
+  <h2>📁 Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>🧩 Web Development Projects</h3>
+      <ul>
+        <li> Resume website </li>
+        <li> Full-stack Bookstore Web Application </li>       
+        <li> Mondrian Compositions </li>
+       <a href="https://infinitecosmos2003.github.io/frontend-projects/">See More!</a>
+    </div>
+
+    
+    
+
+    <div class="card">
+      <h3>📊 ML & Data Analytics Projects</h3>
+      <li> Web Scraping & Analysis of Customer Review Data </li>
+      <li> Advanced House-Price Prediction </li>
+      <li> Student Dropout Analysis </li>
+      <li> Global Layoffs Analysis: Data Cleaning & EDA(SQL) </li>
+      <li> Bike Sales Dashboard & Data Cleanup in MS Excel </li>
+      <!--<a href="#">See More!</a>-->
+    </div>
+
+  </div>
+</section>
 <hr/>
 
 
+<h2>🔧 Technical Skills </h2>
+  <div class="skills-columns">
 
-<h2> Skills </h2>
-  <ul> 
-  <li> HTML5 ⭐⭐⭐⭐☆ </li>
-  <li> CSS3 (Learning) ⭐⭐⭐☆☆ </li>
-  <li> Git & GitHub ⭐⭐☆☆☆ </li>
-  <li> Responsive Design (Basics) </li>
-  <li> JavaScript ES6 ⭐⭐☆☆☆ </li>
-  <li> Node.js ⭐⭐⭐☆☆ </li>
-  <li> Express.js ⭐⭐⭐⭐☆ </li>
-  <li> EJS ⭐⭐⭐⭐☆ </li>
-  <li> Python ⭐⭐⭐☆☆ </li>
-  <li> Java ⭐⭐⭐☆☆ </li>
- </ul>
+   <ul> 
+    <li> MS Word, Excel & Powerpoint ⭐⭐⭐⭐☆ </li>
+    <li> SQL ⭐⭐⭐☆☆ </li>
+    <li> Foundations of GATE (CS/IT) ⭐⭐⭐☆☆ </li>
+    <li> HTML5 ⭐⭐⭐⭐☆ </li>
+    <li> CSS3 (Learning) ⭐⭐⭐☆☆ </li>
+  
+   
+    <li> Git & GitHub ⭐⭐☆☆☆ </li>
+    <li> Responsive Design (Basics) </li>
+    <li> JavaScript ES6 ⭐⭐☆☆☆ </li>
+    <li> Node.js ⭐⭐⭐☆☆ </li>
+    <li> Express.js & EJS⭐⭐⭐⭐☆ </li>
+   
+    
+    <li> Python programming & machine learning ⭐⭐⭐☆☆ </li>
+    <li> Java & C programming ⭐⭐⭐☆☆ </li> 
+    <li> Data Analysis & Visualization ⭐⭐⭐☆☆ </li>
+   </ul>
 <hr/>
+
+<!--<div class="skill">
+  <span>HTML5</span>
+  <div class="bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+  <span>CSS3</span>
+  <div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+  <span>JavaScript ES6</span>
+  <div class="bar"><div style="width:60%"></div></div>
+</div>
+
+<div class="skill">
+  <span>Node.js</span>
+  <div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+  <span>Express.js</span>
+  <div class="bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+  <span>Python</span>
+  <div class="bar"><div style="width:60%"></div></div>
+</div>
+
+<div class="skill">
+  <span>SQL</span>
+  <div class="bar"><div style="width:60%"></div></div>
+</div>
+
+
+
+<hr/>-->
 
  
 
-<h2>Awards & Certifications</h2>
 
-<h3>Professional & Online Certifications</h3>
-<ul>
-  <li>Machine Learning Specialization – Coursera</li>
-  <li>Statistics with Python Specialization – Coursera</li>
-  <li>Career Essentials in Data Analytics – Microsoft & LinkedIn</li>
-  <li>Career Essentials in Generative AI – Microsoft & LinkedIn</li>
-  <li>OCI AI Foundations Certificate</li>
-  <li>Kaggle – Machine Learning Course Certificates</li>
-  <li>Forage – British Airways Data Science Virtual Experience</li>
-</ul>
+<h2>📜  Online Courses & Certifications</h2>
 
-<h3>Training & Internship Experience</h3>
+<div class="cert-grid">
+
+  <div class="cert-card">
+   <a href="https://coursera.org/verify/specialization/VPA5RELLULV7" class="ablack"><h4>Machine Learning Specialization</h4> </a> 
+    <p>DeepLearning.AI & Stanford Online (Coursera)</p>
+  </div>
+
+  <div class="cert-card">
+    <a href="https://courses.cognitiveclass.ai/certificates/88565bb93bd04cc89bb42148be924c61" class="ablack"> <h4>Python 101 for Data Science</h4></a>
+    <p>IBM Skills Network (Cognitive Class)</p>
+  </div>
+
+  <div class="cert-card">
+    <a href="https://www.linkedin.com/learning/certificates/fd44475df1aac092fd2547166a38129c6f9c555ff139bef7cdb346c07012a677" class="ablack"><h4>Career Essentials in Generative AI</h4></a>
+    <p>Microsoft (LinkedIn Learning)</p>
+  </div>
+
+  <div class="cert-card">
+    <a href="https://www.linkedin.com/learning/certificates/210461c0c8924354cc01a6cebe3743b9de4b9b6def262150f73478fd7c416fa4" class="ablack"><h4>Introduction to Career Skills in Data Analytics</h4></a>
+    <p>Microsoft (LinkedIn Learning)</p>
+  </div>
+
+  <div class="cert-card">
+   <a href="https://www.coursera.org/account/accomplishments/certificate/NALCM2XLYDTW" class="ablack"> <h4>Understanding and Visualizing Data with Python</h4></a>
+    <p>University of Michigan (Coursera)</p>
+  </div>
+
+  <div class="cert-card">
+   <a href="https://www.coursera.org/account/accomplishments/records/OLWCA3LS8HBN" class="ablack"> <h4>Preparing Data for Analysis With MS Excel</h4></a>
+    <p>Microsoft (Coursera)</p>
+  </div>
+
+</div>
+<hr/>
+
+<h2> 🧑‍💼 Training & Internship Experience </h2>
 <ul>
   <li>
-    Machine Learning Internship (1 Month) – Verzeo<br />
+    <a href="https://drive.google.com/file/d/1xWVxC_iKnpYgfgArAOCS8CQtGfONwwI7/view?usp=drivesdk" class="ablack cat"><strong>Machine Learning Internship (1 Month) – Verzeo</strong></a><br />
     <em>Python-based ML training and applied concepts</em>
   </li>
   <li>
-    Industrial Training – Euphoria GenX<br />
-    <em>Developed a Book Store Web Application using Django, HTML, CSS, Bootstrap, and JavaScript</em>
+    <a href="https://drive.google.com/file/d/1QyW_Kni-7wu0axO2gLkcG-L_7NePgtcV/view?usp=drivesdk" class="ablack cat"><strong>Industrial Training – Euphoria GenX</strong><br /></a>
+     <em>Developed a Book Store Web Application using Django, HTML, CSS, Bootstrap, and JavaScript enabling users to browse books, manage carts, place orders, and complete secure online payments.</em>
   </li>
+  <li>
+   <a href="https://drive.google.com/drive/folders/1bRqPx8lMg_e7VK37ZRYC7oua4jJcaFEN" class="ablack cat"><strong> Data Science Job Simulation - Forage (British Airways)</strong><br /> </a>
+     <em>Simulated data science's role in British Airways' success by scraping and analysing customer review data to uncover findings. Built a 
+      predictive model to understand factors that influence buying behaviour.</em>
+  </li> 
 </ul>
-
-<h3>Academic Events, Competitions & Achievements</h3>
+<hr/>
+<!--<h3>Academic Events & Competitions </h3>
 <ul>
   <li>
     2nd Position – PRAKAUSHAL’23<br />
@@ -156,29 +334,58 @@ upskill quickly based on project or organizational requirements.
     Participant – Smart India Hackathon (SIH) 2023<br />
     <em>Project: Student Dropout Analysis</em>
   </li>
-  <li>
-    Participant – Managerial Olympiad, Kascade (IIT Kharagpur, 2022)
-  </li>
-  <li>
-    Certificate of Appreciation – Online Business Quiz (60%)
-  </li>
-</ul>
+</ul> -->
 
+<section class="resume-section">
+  <h2 class="section-title">🏆 Awards & Achievements </h2>
+
+  <div class="card1">
+    <h3 class="item-title">
+    <a href="https://drive.google.com/file/d/1RYKWH96hJUw8PN0-94TDdguEl-WPxkbX/view?usp=drivesdk " class="ablack">  3rd Position – codEXcellence’23 Coding Contest</a>
+    </h3>
+    <p class="item-description">
+      Participated in a competitive Java coding contest involving problem-solving
+      on arrays, strings, loops, functions, and recursion under strict time
+      constraints. Implemented efficient solutions and secured 3rd position
+      based on code correctness, efficiency, and execution.
+    </p>
+  </div>
+
+  <div class="card1">
+    <h3 class="item-title">
+      <a href="https://drive.google.com/drive/folders/1aQtcH0CDPHw8ROyW2RHqNPPE_YDSombZ" class="ablack">2nd Position – PRAKAUSHAL’23</a>
+    </h3>
+    <p class="item-description">
+      Designed and developed a Library Management System using Java (Swing), JDBC, and MySQL with a standard GUI interface. 
+     The system supports core administrative operations including adding, deleting, and updating book records, staff details, and admin credentials. Implemented database connectivity for reliable data storage and retrieval. 
+     The project was developed, tested, and demonstrated within a limited preparation timeframe, with all functionalities executed successfully during the presentation.
+    </p>
+  </div>
+
+
+
+  <div class="card1">
+    <h3 class="item-title">
+      <a href="https://drive.google.com/drive/folders/1DqmayDtUAFCBUK7bHGBZJvkUndaYb0vB " class="ablack">SIH-2023 Participant</a>
+    </h3>
+    <p class="item-description">
+     Participated in Smart India Hackathon (SIH) 2023 as part of a team that developed
+    and presented a Student Dropout Analysis solution. The project was implemented
+     using Streamlit. The solution analyzed academic performance, attendance, and socio-economic factors to
+   identify at-risk students and was evaluated through presentations, live code demonstration,
+    and faculty review, leading to selection among the top 40 teams shortlisted
+    from the college.
+</section>
 <hr />
 
-
-
-
-<h2> Other </h2>
- <nav>  
-  <ul>
-  <li> <a href="./public/about.html"> <u> About Me </u> </a> </li> 
-  <li> <a href="./public/contact.html"> <u> Contact Me </u> </a> </li>
-  </ul>
- </nav>
+  <div class="others-inline">
+   <a href="./public/about.html"> <u> About Me </u> </a>  
+   <span>|</span>
+   <a href="./public/contact.html"> <u> Contact Me </u> </a>
+</div>
 
 <footer>
-<p>COPYRIGHT © 2025 Pankaj Acharjee. All rights reserved.</p>
+<p>COPYRIGHT © 2026 Pankaj Acharjee. All rights reserved.</p>
 </footer>
 
 </body>
