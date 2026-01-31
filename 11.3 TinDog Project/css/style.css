@@ -2,8 +2,74 @@ body {
   margin: 0px;
 }
 
+.gradient-background1 {
+ /*  background: linear-gradient(135deg, #5a8bd7 0%, #9fbdf2 50%, #f3d1b0 100%);
+  /*background: linear-gradient(135deg, #6ec1e4, #b8e0f5, #ffffff);
+  background: linear-gradient(135deg, #f9d976, #f39f86, #f36f7c);*/
+ /* background: linear-gradient(135deg, #2e8b57, #7ccfa1, #e6fff3);*/
+ /* background: linear-gradient(180deg, #f5f9ff, #dbeafe);*/
+ /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);*/
+  background: linear-gradient(135deg,
+  #a8d8f0 0%,
+  #f3cfa4 35%,
+  #f6b3a1 55%,
+  #9fd6f2 100%
+);
+  /*background: linear-gradient(135deg,
+  #6ec1e4 0%,
+  #b8e0f5 40%,
+  #f9d976 
+  #f39f86 
+  #b8e0f5 
+  #ffffff 
+);
+  
+ /*background: linear-gradient(135deg,
+  #a8d8f0,
+  #f3cfa4,
+  #9fd6f2
+);*/
+ 
+/*background: linear-gradient(135deg,
+  #6ec1e4 0%,
+  #b8e0f5 38%,
+
+  #f9d976 46%,   /* soft gold */
+  /*#f7b267 50%,   /* warm orange */
+  /*#f48fb1 54%,   /* gentle rose */
+  /*#b39ddb 58%,   /* light purple */
+  /*#81d4fa 62%,   /* back to sky blue */
+
+ /* #b8e0f5 70%,
+  #ffffff 100%
+);*/
+background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  margin: 0px;
+}
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  /*background: linear-gradient(135deg,
+  #6ec1e4 0%,
+  #b8e0f5 40%,
+  #f9e5a6 50%,
+  #f3b6a3 55%,
+  #c5cae9 65%,
+  #b8e0f5 70%,
+  #ffffff 100%
+);*/
+background: linear-gradient(135deg,
+  #6ec1e4 0%,
+  #b8e0f5 38%,
+
+  #f9d976 46%,   /* soft gold */
+  #f7b267 50%,   /* warm orange */
+  #f48fb1 54%,   /* gentle rose */
+  #b39ddb 58%,   /* light purple */
+  #81d4fa 62%,   /* back to sky blue */
+
+  #b8e0f5 70%,
+  #ffffff 100%
+);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   margin: 0px;
